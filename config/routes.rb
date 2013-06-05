@@ -1,6 +1,6 @@
 DailyReportSystem::Application.routes.draw do
-  get "static_pages/home"
-
+  root to: 'static_pages#home'
+  match '/signup',  to: 'users#new'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
