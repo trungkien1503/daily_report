@@ -1,8 +1,8 @@
 development:
   adapter: postgresql
   host: localhost
-  username: rails
-  password: 1
+  username: postgres
+  password: postgres
   database: daily_report_system_dev
   
 # Warning: The database defined as "test" will be erased and
@@ -11,6 +11,6 @@ development:
 test:
   adapter: postgresql
   host: localhost
-  username: rails
-  password: 1
+  username: postgres
+  password: postgres
   database: daily_report_system_test
