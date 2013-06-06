@@ -1,5 +1,9 @@
 DailyReportSystem::Application.routes.draw do
-  resources :users
+  resources :users do
+    member do
+      get :activate
+    end
+  end
   root to: 'static_pages#home'
   match '/signup',  to: 'users#new'
   # The priority is based upon order of creation:

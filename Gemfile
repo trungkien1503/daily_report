@@ -10,6 +10,8 @@ gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
+  gem 'mailcatcher'
+  gem 'mail'
 end
 
 group :development do

@@ -11,17 +11,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130605160920) do
+ActiveRecord::Schema.define(:version => 20130606072926) do
+
+  create_table "activations", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "activation_status"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.string   "password_digest"
-    t.integer  "status_id"
+    t.string   "activation_token"
   end
 
+  add_index "users", ["activation_token"], :name => "index_users_on_activation_token", :unique => true
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
 
 end
