@@ -6,7 +6,7 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
         <%= @user.email%>
-        <%= Activation.find_by_user_id(@user.id)%>
+        <%= Activation.find_by_user_id(@user.id).activation_status%>
       </h1>
     </section>
   </aside>

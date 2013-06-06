@@ -1,3 +1,17 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id               :integer          not null, primary key
+#  name             :string(255)
+#  email            :string(255)
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#  password_digest  :string(255)
+#  activation_token :string(255)
+#  remember_token   :string(255)
+#
+
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation
   has_secure_password
@@ -5,6 +19,7 @@ class User < ActiveRecord::Base
   has_one :activation, dependent: :destroy
   
   before_save { email.downcase! }
+  before_save :create_remember_token
   
   validates :name,  presence: true,  length: { maximum: 50 }
   VALID_EMAIL_REGEX = /\A[\w+-.]+@framgia.com\z/i
@@ -24,5 +39,11 @@ class User < ActiveRecord::Base
     @user = user
     @activation = Activation.find_by_user_id(@user.id)
     Activation.update(@activation.id, activation_status:"activated")
+  end
+  
+  private
+  
+  def create_remember_token
+      self.remember_token = SecureRandom.urlsafe_base64
   end
 end
