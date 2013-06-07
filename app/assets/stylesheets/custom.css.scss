@@ -5,7 +5,6 @@
 $grayMediumLight: #eaeaea;
 
 @mixin box_sizing {
-  -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
 }
@@ -18,8 +17,12 @@ html {
 
 body {
   padding-top: 60px;
+  background-color: rgb(238, 238, 238)
 }
 
+div {
+    
+}
 section {
   overflow: auto;
 }
@@ -149,13 +152,13 @@ aside {
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 15px;
   @include box_sizing;
 }
 
 input {
-  height: auto !important;
+  height: auto;
 }
 #error_explanation {
   color: #f00;

@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "admin@framgia.com"
+  default from: "system@framgia.com"
   
   def welcome_email(user)
     @user = user

@@ -17,6 +17,7 @@ class User < ActiveRecord::Base
   has_secure_password
   
   has_one :activation, dependent: :destroy
+  has_many :reports,    dependent: :destroy
   
   before_save { email.downcase! }
   before_save :create_remember_token

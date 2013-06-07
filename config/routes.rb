@@ -4,8 +4,11 @@ DailyReportSystem::Application.routes.draw do
       get :activate
     end
   end
-  resources :sessions, only: [:new, :create, :destroy]
+  resources :sessions,  only: [:new, :create, :destroy]
+  resources :reports,   only: [:new, :create]
+  resources :catalogs
   root to: 'static_pages#home'
+  
   match '/signup',  to: 'users#new'
   match '/signin',  to: 'sessions#new'
   match '/signout', to: 'sessions#destroy', via: :delete

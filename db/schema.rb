@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130606082523) do
+ActiveRecord::Schema.define(:version => 20130606123149) do
 
   create_table "activations", :force => true do |t|
     t.integer  "user_id"
@@ -19,6 +19,26 @@ ActiveRecord::Schema.define(:version => 20130606082523) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
   end
+
+  create_table "catalogs", :force => true do |t|
+    t.string   "name"
+    t.text     "document"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "reports", :force => true do |t|
+    t.integer  "catalog_id"
+    t.integer  "user_id"
+    t.text     "content"
+    t.binary   "attached_file_data"
+    t.string   "attached_file_name"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "reports", ["catalog_id"], :name => "index_reports_on_catalog_id"
+  add_index "reports", ["user_id"], :name => "index_reports_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "name"

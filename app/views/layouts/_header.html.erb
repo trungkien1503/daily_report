@@ -1,7 +1,7 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
         <div class="container">
-            <%= link_to "sample app", root_path, id: "logo" %>
+            <%= link_to "daily report system", root_path, id: "logo" %>
             <nav>
                 <ul class="nav pull-right">
                     <li>
@@ -9,7 +9,7 @@
                     </li>
                     <% if signed_in? %>
                     <li>
-                        <%= link_to "Users", '#' %>
+                        <%= link_to "Daily Report", new_report_path %>
                     </li>
                     <li id="fat-menu" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Account <b class="caret"></b> </a>
@@ -18,7 +18,7 @@
                                 <%= link_to "Profile", current_user %>
                             </li>
                             <li>
-                                <%= link_to "Settings", '#' %>
+                                <%= link_to "Settings", edit_user_path(current_user) %>
                             </li>
                             <li class="divider"></li>
                             <li>
