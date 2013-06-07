@@ -5,6 +5,8 @@
 
         <div class="row">
             <%= form_for Report.new do |f|%>
+            <%= f.hidden_field :catalog_id%>
+            <%= f.hidden_field :user_id, value: current_user.id%>
             <div class="span8">
                 <div class="row">
                     <div class="row">
@@ -14,25 +16,21 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="row">
-                            <div class="span4 offset2">
-                                <%= f.label :binary_file%>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="span3 offset2">
-                                progress bar
-                            </div>
-                            <div class="span1">
+                        <div class="span1">
+                            <%= f.label :attached_file_name, "attachment"%>
+                            <button type="button" class="btn" id="deselect_file">
                                 delete
-                            </div>
+                            </button>
+                        </div>
+                        <div class="span4">
+                            <%= f.file_field :attached_file_data %>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span8">
-                        <%= f.submit "submit your report", class: "btn btn-large btn-block btn-primary"%>
+                    <div class="span4 offset4">
+                        <%= f.submit "submit your report", class: "btn btn-large btn-primary",
+                        :confirm => "Do you want to submit now?"%>
                     </div>
                 </div>
             </div>

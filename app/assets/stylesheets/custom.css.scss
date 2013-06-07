@@ -154,7 +154,6 @@ input, textarea, select, .uneditable-input {
   width: 100%;
   padding: 5px;
   margin-bottom: 15px;
-  @include box_sizing;
 }
 
 input {

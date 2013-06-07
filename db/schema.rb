@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130606123149) do
+ActiveRecord::Schema.define(:version => 20130607192729) do
 
   create_table "activations", :force => true do |t|
     t.integer  "user_id"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20130606123149) do
     t.string   "attached_file_name"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+    t.string   "attached_file_type"
   end
 
   add_index "reports", ["catalog_id"], :name => "index_reports_on_catalog_id"
