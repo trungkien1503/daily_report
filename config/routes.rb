@@ -5,7 +5,11 @@ DailyReportSystem::Application.routes.draw do
     end
   end
   resources :sessions,  only: [:new, :create, :destroy]
-  resources :reports,   only: [:new, :create, :index ]
+  resources :reports, only: [:new, :create, :index] do
+    member do
+      get :serve
+    end
+  end
   resources :catalogs
   root to: 'static_pages#home'
   

@@ -2,22 +2,19 @@
 #
 # Table name: reports
 #
-#  id                 :integer          not null, primary key
-#  catalog_id         :integer
-#  user_id            :integer
-#  content            :text
-#  attached_file_data :binary
-#  attached_file_name :string(255)
-#  created_at         :datetime         not null
-#  updated_at         :datetime         not null
-#  attached_file_type :string(255)
+#  id         :integer          not null, primary key
+#  catalog_id :integer
+#  user_id    :integer
+#  content    :text
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#  file       :string(255)
 #
 
 class Report < ActiveRecord::Base
-  attr_accessible :attached_file_data, :attached_file_name,
-                  :catalog_id, :content, :user_id
+  attr_accessible :catalog_id, :content, :user_id, :file
 
-  mount_uploader :attached_file_name, AttachmentUploader
+  mount_uploader :file, AttachmentUploader
 
   belongs_to :user
   belongs_to :catalog
@@ -27,8 +24,10 @@ class Report < ActiveRecord::Base
   validates :user_id,     presence:true
   validates :catalog_id,  presence:true
   validates :content,     presence:true
-  validate :file_size_validation, :if => "attached_file_name?"
+  validate :file_size_validation, :if => "file?"
   def file_size_validation
-    errors[:attached_file_data] << "should be less than 1MB" if attached_file_data.size > 1.megabytes
+    if file.file.size.to_f/(1000*1000) > 1.to_f
+      errors.add(:file, "You cannot upload a file greater than 1MB")
+    end
   end
 end

@@ -1,20 +1,13 @@
 class ReportsController < ApplicationController
-  before_filter :signed_in_user, only: [:create, :new, :index]
+  before_filter :signed_in_user, only: [:create, :new, :index, :serve]
   def new
     @report = Report.new
     @catalogs_collection = Catalog.all.prepend(Catalog.new)
   end
 
   def create
-    @report = Report.new(params[:report]) do |t|
-      if params[:report][:attached_file_data]
-        t.attached_file_data = params[:report][:attached_file_data].read
-        t.attached_file_name = params[:report][:attached_file_data].original_filename
-        t.attached_file_type = params[:report][:attached_file_data].content_type
-      end
-    end
+    @report = Report.new(params[:report])
     if @report.save
-      flash.now[:notice] = "create report success"
       redirect_to reports_path
     else
       flash.now[:error] = "create report failed"
@@ -25,6 +18,12 @@ class ReportsController < ApplicationController
 
   def index
     @user = current_user
-    @report_collection = Report.find_by_user_id(@user.id)
+    @reports = @user.reports.where(created_at: Date.yesterday..Time.now.to_datetime).paginate(page: params[:page], per_page: 1)
+  end
+  def serve
+    @report = Report.find(params[:id])
+    if signed_in? and @report
+      send_file @report.file.current_path 
+    end
   end
 end

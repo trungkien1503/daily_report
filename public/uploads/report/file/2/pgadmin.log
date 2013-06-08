@@ -1,0 +1,9 @@
+2013-03-04 17:04:40 ERROR  : ERROR:  function postgis_full_version() does not exist
+LINE 1: SELECT PostGIS_full_version();
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2013-03-05 11:42:20 ERROR  : ERROR:  could not stat file "postgresql.conf": No such file or directory
+CONTEXT:  SQL function "pg_file_length" statement 1
+2013-03-05 12:14:11 ERROR  : ERROR:  could not open extension control file "/usr/share/postgresql/9.1/extension/postgis.control": No such file or directory
+2013-03-07 14:22:26 ERROR  : ERROR:  source database "template_postgis" is being accessed by other users
+DETAIL:  There are 1 other session(s) using the database.

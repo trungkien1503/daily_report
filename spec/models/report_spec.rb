@@ -2,15 +2,13 @@
 #
 # Table name: reports
 #
-#  id                 :integer          not null, primary key
-#  catalog_id         :integer
-#  user_id            :integer
-#  content            :text
-#  attached_file_data :binary
-#  attached_file_name :string(255)
-#  created_at         :datetime         not null
-#  updated_at         :datetime         not null
-#  attached_file_type :string(255)
+#  id         :integer          not null, primary key
+#  catalog_id :integer
+#  user_id    :integer
+#  content    :text
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#  file       :string(255)
 #
 
 require 'spec_helper'

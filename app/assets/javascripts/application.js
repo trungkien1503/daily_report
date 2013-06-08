@@ -17,7 +17,7 @@
 
 $(document).ready(function(){
    $("#deselect_file").click(function(){
-      $("#report_attached_file_data").val(""); 
+      $("#report_file").val(""); 
    }); 
    
    $("#catalog_id").change(function(){

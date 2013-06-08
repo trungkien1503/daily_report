@@ -1,0 +1,7 @@
+<li>
+    <span class="timestamp"> Created <%= (report.created_at.to_date) %> | Catalog: <%=Catalog.find(report.catalog_id).name%> </span>
+    <textarea class="content" disabled="true" rows="10"><%= (report.content) %></textarea>
+    <% unless report.file.blank? %>
+        Attached File : <%= link_to File.basename(report.file.path), serve_report_path(report)%>
+    <%end%>
+</li>
