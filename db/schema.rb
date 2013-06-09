@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130609053829) do
+ActiveRecord::Schema.define(:version => 20130609174759) do
 
   create_table "activations", :force => true do |t|
     t.integer  "user_id"
@@ -29,6 +29,16 @@ ActiveRecord::Schema.define(:version => 20130609053829) do
 
   add_index "catalogs", ["name"], :name => "index_catalogs_on_name", :unique => true
 
+  create_table "group_users", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "group_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "group_users", ["group_id"], :name => "index_group_users_on_group_id"
+  add_index "group_users", ["user_id"], :name => "index_group_users_on_user_id"
+
   create_table "groups", :force => true do |t|
     t.string   "name"
     t.integer  "manager"
@@ -37,6 +47,16 @@ ActiveRecord::Schema.define(:version => 20130609053829) do
   end
 
   add_index "groups", ["name"], :name => "index_groups_on_name", :unique => true
+
+  create_table "members", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "group_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "members", ["group_id"], :name => "index_members_on_group_id"
+  add_index "members", ["user_id"], :name => "index_members_on_user_id"
 
   create_table "reports", :force => true do |t|
     t.integer  "catalog_id"
@@ -58,12 +78,10 @@ ActiveRecord::Schema.define(:version => 20130609053829) do
     t.string   "password_digest"
     t.string   "activation_token"
     t.string   "remember_token"
-    t.integer  "group_id"
   end
 
   add_index "users", ["activation_token"], :name => "index_users_on_activation_token", :unique => true
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
-  add_index "users", ["group_id"], :name => "index_users_on_group_id"
   add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
 
 end

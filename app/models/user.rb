@@ -18,8 +18,9 @@ class User < ActiveRecord::Base
   
   has_one :activation, dependent: :destroy
   has_many :reports,    dependent: :destroy
-  belongs_to :groups
-  has_one :group, dependent: :nullify, foreign_key: "manager", readonly: true
+  has_one :group_user,   dependent: :destroy
+  has_one :group, dependent: :nullify, foreign_key: "manager"
+  
   before_save { email.downcase! }
   before_save :create_remember_token
   

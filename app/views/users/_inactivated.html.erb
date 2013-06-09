@@ -7,14 +7,13 @@
         <%= gravatar_for @user, size:40%>
     </div>
     <div class="span4">
-        <%= @user.name%> | <%=@user.email%>
+        <%= link_to @user.name, @user%> | <%=@user.email%>
     </div>
     <div class="span2">
        created at <%= @user.created_at.to_date%>
     </div>
     <div class="span3">
-        <%= f.submit "Click to activate", class: "btn btn-warning" %>
+        <%= f.submit "Inactive", class: "btn btn-warning" %>
     </div>
 </div>
-
 <% end %>

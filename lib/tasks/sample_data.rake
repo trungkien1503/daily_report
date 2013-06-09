@@ -16,6 +16,7 @@ namespace :db do
     10.times do |n|
       @group = Group.new
       @group.name = "group-#{n+1}"
+      @group.manager = n+2
       @group.save
       
       name  = "catalog-#{n+1}"
@@ -28,10 +29,10 @@ namespace :db do
       @user.email = "user-#{n+1}@framgia.com"
       @user.password = "foobar"
       @user.password_confirmation = "foobar"
-      @user.group_id = @group.id
       @user.activation_token = Digest::MD5::hexdigest(@user.email)
       @user.save
       
+      GroupUser.create!(user_id:@user.id,group_id:@group.id)
       Activation.create!(user_id: @user.id, activation_status: "activated")
       
       @user = User.new

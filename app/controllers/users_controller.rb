@@ -4,10 +4,11 @@ class UsersController < ApplicationController
   def index
     @users = User.paginate(page: params[:page], per_page: 20)
   end
-  
+
   def show
     if signed_in?
       @user = User.find(params[:id])
+      @groups = Group.all
     else
       redirect_to root_path
     end
@@ -52,9 +53,9 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
-      flash[:success] = "Profile updated"
-      sign_in @user
-      redirect_to @user
+        flash[:success] = "Profile updated"
+        sign_in @user
+        redirect_to @user
     else
       render 'edit'
     end
