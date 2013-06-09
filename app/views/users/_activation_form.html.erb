@@ -1,0 +1,7 @@
+<div id="activation_form_<%= @user.id%>">
+    <% if @user.activated? %>
+    <%= render 'activated' %>
+    <% else %>
+    <%= render 'inactivated' %>
+    <% end %>
+</div>

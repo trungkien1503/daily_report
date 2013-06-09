@@ -1,13 +1,23 @@
 module SessionsHelper
   def sign_in(user)
     cookies.permanent[:remember_token] = user.remember_token
+    if(user.email=="admin@framgia.com")
+      session[:admin] = true
+    else
+      session[:admin] = false
+    end
     self.current_user = user
   end
 
   def signed_in?
     !current_user.nil?
   end
-
+  def admin?
+    !current_user.nil? and session[:admin]
+  end
+  def is_admin?(user)
+    user.email == "admin@framgia.com"
+  end
   def current_user=(user)
     @current_user = user
   end
@@ -19,7 +29,7 @@ module SessionsHelper
   def current_user?(user)
     user == current_user
   end
-  
+
   def signed_in_user
     unless signed_in?
       store_location
@@ -30,6 +40,7 @@ module SessionsHelper
   def sign_out
     self.current_user = nil
     cookies.delete(:remember_token)
+    session.delete(:admin)
   end
 
   def redirect_back_or(default)

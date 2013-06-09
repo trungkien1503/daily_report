@@ -1,11 +1,15 @@
 class UsersController < ApplicationController
-  before_filter :signed_in_user, only: [:edit, :update]
+  before_filter :signed_in_user, only: [:edit, :update, :index]
   before_filter :correct_user,   only: [:edit, :update]
+  def index
+    @users = User.paginate(page: params[:page], per_page: 20)
+  end
+  
   def show
     if signed_in?
-      redirect_to root_path
-    else
       @user = User.find(params[:id])
+    else
+      redirect_to root_path
     end
   end
 
@@ -23,7 +27,7 @@ class UsersController < ApplicationController
       @success = false
       if @user.save
         #       activation for user responses to user.id
-        @activation = Activation.new(user_id: @user.id, activation_status: "inactive")
+        @activation = Activation.new(user_id: @user.id, activation_status: "inactivated")
         if @activation.save
           @success = true
           # Tell the UserMailer to send a Email after save

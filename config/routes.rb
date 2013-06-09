@@ -4,6 +4,7 @@ DailyReportSystem::Application.routes.draw do
       get :activate
     end
   end
+  resources :activations
   resources :sessions,  only: [:new, :create, :destroy]
   resources :reports, only: [:new, :create, :index] do
     member do

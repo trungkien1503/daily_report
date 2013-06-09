@@ -171,3 +171,29 @@ input {
   @extend .control-group;
   @extend .error;
 }
+/* user list */
+
+.users {
+  list-style: decimal;
+  margin: 0px 0 0 0;
+
+  li {
+    padding: 0px 0;
+    border-top: 1px solid #e8e8e8;
+    div {
+        padding: 2px 0;
+    }
+  }
+}
+.content {
+  display: block;
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.inactivated {
+    background-color: #ff3131
+}

@@ -13,6 +13,6 @@ class Catalog < ActiveRecord::Base
   attr_accessible :document, :name
   has_many :reports,    dependent: :destroy
   
-  validates :name,      presence:true
+  validates :name,      presence:true,  uniqueness:{case_sensitive: false}
   validates :document,  presence:true 
 end

@@ -8,10 +8,7 @@ class SessionsController < ApplicationController
       activation = Activation.find_by_user_id(user.id)
       if activation && activation.activation_status == 'activated'
         sign_in user
-        if(user.email=="admin@framgia.com")
-          session[:admin] = "admin"
-        end
-        redirect_to user
+        redirect_back_or user
       else
         flash.now[:error] = 'account hasnot been actived. Ask admin'
         render 'sessions/new'

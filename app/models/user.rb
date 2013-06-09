@@ -18,7 +18,8 @@ class User < ActiveRecord::Base
   
   has_one :activation, dependent: :destroy
   has_many :reports,    dependent: :destroy
-  
+  belongs_to :groups
+  has_one :group, dependent: :nullify, foreign_key: "manager", readonly: true
   before_save { email.downcase! }
   before_save :create_remember_token
   
@@ -42,6 +43,9 @@ class User < ActiveRecord::Base
     Activation.update(@activation.id, activation_status:"activated")
   end
   
+  def activated?
+    activation.activation_status == "activated"
+  end
   private
   
   def create_remember_token

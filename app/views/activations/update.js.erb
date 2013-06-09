@@ -1,0 +1,5 @@
+<% if @activation.activation_status == "activated"%>
+    $("#activation_form_<%= @user.id%>").html("<%= escape_javascript(render('users/activated')) %>")
+<% else %>
+    $("#activation_form_<%= @user.id%>").html("<%= escape_javascript(render('users/inactivated')) %>")
+<% end %>

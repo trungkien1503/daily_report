@@ -1,0 +1,13 @@
+<% provide(:title, 'All users') %> <h1>All users</h1>
+
+<ol class="users">
+    <% @users.each do |user| %>
+        <% @user = user %>
+        <% unless is_admin?(user)%>
+            <li>
+                <%= render "activation_form" if admin?%>
+            </li>
+        <%end%>
+    <% end %>
+    <%= will_paginate %>
+</ol>

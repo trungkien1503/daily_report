@@ -1,0 +1,20 @@
+<%= form_for(@user.activation, remote: true) do |f| %>
+<div class="row inactivated">
+    <div>
+        <%= f.hidden_field :activation_status, value: "activated"%>
+    </div>
+    <div class="span1">
+        <%= gravatar_for @user, size:40%>
+    </div>
+    <div class="span4">
+        <%= @user.name%> | <%=@user.email%>
+    </div>
+    <div class="span2">
+       created at <%= @user.created_at.to_date%>
+    </div>
+    <div class="span3">
+        <%= f.submit "Click to activate", class: "btn btn-warning" %>
+    </div>
+</div>
+
+<% end %>
