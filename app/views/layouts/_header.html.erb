@@ -8,48 +8,26 @@
                         <%= link_to "Home", root_path %>
                     </li>
                     <% if signed_in? %>
-                    <%if session[:admin]%>
-                    <li id="fat-menu" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <%= link_to "Reports", new_catalog_path %>
-                            </li>
-                            <li>
-                                <%= link_to "Users", users_path%>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <%else%>
-                    <li id="fat-menu" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Daily Report <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <%= link_to "New", new_report_path %>
-                            </li>
-                            <li>
-                                <%= link_to "Show", reports_path%>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <%end%>
-                    <li id="fat-menu" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Account <b class="caret"></b> </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <%= link_to "Profile", current_user %>
-                            </li>
-                            <li>
-                                <%= link_to "Settings", edit_user_path(current_user) %>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <%= link_to "Sign out", signout_path, method: "delete" %>
-                            </li>
-                        </ul>
-                    </li>
+                        <%if session[:admin]%>
+                            <%= render 'layouts/admin'%>
+                        <%else%>
+                            <%= render 'layouts/user'%>
+                        <%end%>
+                        <li id="fat-menu" class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Account <b class="caret"></b> </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <%= link_to "Profile", current_user %>
+                                </li>
+                                <li>
+                                    <%= link_to "Settings", edit_user_path(current_user) %>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <%= link_to "Sign out", signout_path, method: "delete" %>
+                                </li>
+                            </ul>
+                        </li>
                     <% else %>
                     <li>
                         <%= link_to "Sign in", signin_path %>

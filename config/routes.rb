@@ -1,7 +1,7 @@
 DailyReportSystem::Application.routes.draw do
   resources :users do
     member do
-      get :activate
+      get :activate,:gen_reports,:gen_reports_result,:gen_excel
     end
   end
   resources :activations, only: [:new, :create, :edit, :update]

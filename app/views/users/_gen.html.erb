@@ -1,0 +1,13 @@
+<div class="span2">
+    <%= form_tag gen_reports_result_user_path(@user), method: :get do%>
+    <div class="row-fluid">
+        <div class="span9">
+            <%= label_tag :type, "Generate type"%>
+            <%= select_tag :type, options_for_select(["week","month","year"])%>
+            <%= label_tag :user_id, "Select member"%>
+            <%= select_tag :user_id, options_from_collection_for_select(@members,:id,:name), size: 5%>
+            <%= submit_tag "generate"%>
+        </div>
+    </div>
+    <% end %>
+</div>

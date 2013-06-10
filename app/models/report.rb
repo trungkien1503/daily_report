@@ -30,4 +30,13 @@ class Report < ActiveRecord::Base
       errors.add(:file, "You cannot upload a file greater than 1MB")
     end
   end
+  def week
+    created_at.strftime("%W")
+  end
+  def month
+    created_at.strftime("%m")
+  end
+  def year
+    created_at.strftime("%Y")
+  end
 end

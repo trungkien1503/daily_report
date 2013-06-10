@@ -1,0 +1,9 @@
+<div class="row-fluid">
+    <div class="span3 offset2">
+    <%= form_tag gen_excel_user_path(@user), method: :get do%>
+    <%= hidden_field_tag :type, @type%>
+    <%= hidden_field_tag :user_id, @id%>
+    <%= submit_tag "generate excel"%>
+    <% end %>
+    </div>
+</div>

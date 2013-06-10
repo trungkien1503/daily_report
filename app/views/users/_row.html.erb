@@ -1,0 +1,19 @@
+<tr>
+    <td><%= @val%></td>
+    <% for @catalog_id in @catalog_ids do%>
+    <td> <% for @r3 in @r2 do%>
+    <% if @r3.catalog_id == @catalog_id %>
+    <ul>
+        <li>
+            <%= @r3.content%>
+            {Attach File
+            <%unless @r3.file.blank? %>
+            <%= link_to File.basename(@r3.file.path), serve_report_path(@r3)%>
+            <%end%>}
+        </li>
+    </ul> <%else%>
+    <%= " "%>
+    <%end%>
+    <% end %> </td>
+    <% end %>
+</tr>

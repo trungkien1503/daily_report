@@ -42,7 +42,7 @@
                     <div class="span4">
                         <%= form_for Catalog.new, remote: true do |f| %>
                         <%= f.label :id,"select catalog"%>
-                        <%= f.collection_select :id, @catalogs_collection, :id, :name %>
+                        <%= f.collection_select :id, @catalogs_collection, :id, :name, :prompt => true %>
                         <%= f.submit "how to write report", class: "btn btn-prime"%>
                         <% end %>
 
