@@ -4,14 +4,15 @@ DailyReportSystem::Application.routes.draw do
       get :activate
     end
   end
-  resources :activations
+  resources :activations, only: [:new, :create, :edit, :update]
+  resources :group_users, only: [:new, :create, :destroy]
   resources :sessions,  only: [:new, :create, :destroy]
   resources :reports, only: [:new, :create, :index] do
     member do
       get :serve
     end
   end
-  resources :catalogs
+  resources :catalogs, only:[:new, :create]
   root to: 'static_pages#home'
   
   match '/signup',  to: 'users#new'

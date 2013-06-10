@@ -1,6 +1,7 @@
 <div class="span8">
-    <%= form_for @user do |f| %>
+    <%= form_for GroupUser.new do |f| %>
     <div class="span5">
+        <%= f.hidden_field :user_id, value: @user.id %>
         <%= f.label :group_id,"select group"%>
         <%= f.collection_select :group_id, @groups, :id, :name %>
         <%= check_box_tag :manager %> Assign group manager?

@@ -1,4 +1,4 @@
-<% if @user.group_id %>
+<% if @user.group_user %>
     <% if @activation.activation_status == "activated"%>
         $("#activation_form_<%= @user.id%>").html("<%= escape_javascript(render('users/activated')) %>")
     <% else %>
