@@ -16,7 +16,7 @@ class CatalogsController < ApplicationController
             flash.now[:error] = "creation failed"
             render "new"
           end
-        else         
+        else
           render "sessions/new"
         end
       }
