@@ -1,23 +1,18 @@
 class GroupUsersController < ApplicationController
-  before_filter :correct_admin
+  before_filter 'correct_admin'
   def create
-    @group_user = GroupUser.new(params[:group_user])
-    @olds = GroupUser.find_all_by_user_id(@group_user.user_id)
-    if @olds
-      @olds.each do |f|
-      GroupUser.destroy(f.id)  
+    @g_user = GroupUser.new(params['group_user'])
+    @user = User.find(@g_user.user_id)
+    GroupUser.destroy_by_user(@user)
+    if @g_user.save
+      @group = Group.find(@g_user.group_id)
+      flash['success'] = "assigned user '#{@user.id}' to '#{@group.name}'"
+      if params['manager'] == '1' && @user.activated?
+        @user.manage!(@group)
+        flash['success'] << ' as manager'
       end
-    end
-    @group = Group.find(@group_user.group_id)
-
-    if @group_user.save
-      if(params[:manager]=="1")
-        @group.manager = @group_user.user_id
-        @group.save
-      end
-      flash[:success] = "updated success"
     else
-      flash[:error] = "updated failed"
+      flash['error'] = 'assign failed'
     end
     redirect_to users_path
   end

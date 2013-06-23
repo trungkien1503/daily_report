@@ -6,11 +6,11 @@ class ReportsController < ApplicationController
   end
 
   def create
-    @report = Report.new(params[:report])
+    @report = Report.new(params['report'])
     if @report.save
       redirect_to reports_path
     else
-      flash.now[:error] = "create report failed"
+      flash.now['error'] = 'create report failed'
       @catalogs_collection = Catalog.all
       render 'new'
     end
@@ -18,12 +18,12 @@ class ReportsController < ApplicationController
 
   def index
     @user = current_user
-    @reports = @user.reports.where("created_at >= ?",DateTime.yesterday).paginate(page: params[:page], per_page: 1)
+    @reports = @user.reports.where('created_at >= ?', DateTime.yesterday)
+                    .paginate(page: params['page'], per_page: 1)
   end
+
   def serve
-    @report = Report.find(params[:id])
-    if signed_in? and @report
-      send_file @report.file.current_path 
-    end
+    @report = Report.find(params['id'])
+    send_file @report.file.current_path if signed_in? && @report
   end
 end

@@ -1,0 +1,456 @@
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609045437_add_index_to_catalog.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609045437_add_index_to_catalog.rb:3: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609053735_create_groups.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130605074243_add_password_digest_to_users.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130605043018_create_users.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606123149_create_reports.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606123149_create_reports.rb:2: C: Method has too many lines. [12/10]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606123149_create_reports.rb:11: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606050830_add_index_to_users_activation_token.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606050830_add_index_to_users_activation_token.rb:3: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609174759_create_group_users.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609174759_create_group_users.rb:9: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609170637_remove_group_id_from_users.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130608170031_add_file_to_reports.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606082523_add_remember_token_to_users.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:2: C: Method has too many lines. [13/10]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:3: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:4: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:4: C: Line is too long. [103/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:5: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:5: C: Line is too long. [101/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:6: C: Line is too long. [104/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:7: C: Line is too long. [93/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:8: C: Line is too long. [132/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:9: C: Line is too long. [96/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:10: C: Line is too long. [139/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:11: C: Line is too long. [94/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:12: C: Line is too long. [89/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:16: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130610183546_create_delayed_jobs.rb:16: C: Line is too long. [83/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130607192729_add_attached_file_type_to_reports.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609053829_add_group_id_to_users.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130609053829_add_group_id_to_users.rb:5: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606071021_create_activations.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606071021_create_activations.rb:9: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606115152_create_catalogs.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606115152_create_catalogs.rb:9: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130605050019_add_index_to_users_email.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/migrate/20130606050706_add_activation_token_to_users.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/seeds.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/seeds.rb:1: C: Line is too long. [103/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/seeds.rb:2: C: Line is too long. [96/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:4: C: Line is too long. [81/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:9: C: Line is too long. [86/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:12: C: Line is too long. [80/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:14: C: Add underscores to large numeric literals to improve their readability.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:14: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:16: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:16: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:17: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:18: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:19: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:19: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:20: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:20: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:23: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:23: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:24: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:25: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:26: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:26: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:27: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:27: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:30: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:30: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:30: C: Line is too long. [84/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:30: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:30: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:30: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:32: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:32: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:33: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:33: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:34: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:34: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:35: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:36: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:37: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:38: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:39: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:40: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:41: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:42: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:42: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:43: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:43: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:46: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:46: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:46: C: Line is too long. [84/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:46: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:46: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:46: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:46: C: Use %w or %W for array of words.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:48: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:48: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:49: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:50: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:51: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:51: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:52: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:52: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:55: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:55: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:55: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:55: C: Line is too long. [81/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:55: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:56: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:56: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:56: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:56: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:58: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:58: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:59: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:60: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:61: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:61: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:62: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:62: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:65: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:65: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:65: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:65: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:65: C: Line is too long. [80/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:65: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:67: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:67: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:68: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:69: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:70: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:70: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:71: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:71: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:74: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:74: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:74: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:74: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:75: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:75: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:75: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:75: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:77: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:77: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:78: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:79: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:80: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:81: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:81: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:82: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:82: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:83: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:86: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:86: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:86: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:86: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:87: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:87: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:87: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:87: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:89: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:89: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:90: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:91: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:92: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:92: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:93: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:93: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:94: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:95: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:96: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:99: C: Line is too long. [102/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:99: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:99: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:99: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:99: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:99: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:100: C: Line is too long. [80/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:100: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:100: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:100: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:100: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:100: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:101: C: Line is too long. [81/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:101: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:101: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:101: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/db/schema.rb:101: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/models/activation_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/models/catalog_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/models/user_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/models/report_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/models/group_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/models/group_user_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/controllers/reports_controller_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/controllers/activations_controller_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/controllers/catalogs_controller_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/controllers/group_users_controller_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/controllers/sessions_controller_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/spec_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/spec_helper.rb:2: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/spec_helper.rb:5: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/spec_helper.rb:11: C: Space missing to the left of '}'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/spec_helper.rb:11: C: Surrounding space missing for '{'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/spec_helper.rb:11: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/spec_helper.rb:39: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/mailers/user_mailer_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/mailers/user_mailer_spec.rb:1: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/helpers/sessions_helper_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/helpers/catalogs_helper_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/helpers/activations_helper_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/helpers/reports_helper_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/spec/helpers/group_users_helper_spec.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:15: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:16: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:16: C: Space inside hash literal braces missing.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:16: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:16: C: Space inside hash literal braces missing.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:17: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/catalog.rb:17: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/activation.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/activation.rb:14: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/activation.rb:15: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/activation.rb:16: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/activation.rb:17: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/activation.rb:18: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/group.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/group.rb:6: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/group.rb:8: C: Space inside hash literal braces missing.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/group.rb:8: C: Space inside hash literal braces missing.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/group.rb:8: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/group.rb:8: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:18: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:22: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:23: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:26: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:32: C: Space inside hash literal braces missing.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:32: C: Space inside hash literal braces missing.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:33: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:33: C: Line is too long. [90/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:34: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:35: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:36: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:38: C: Surrounding space missing for '{'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:40: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:44: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:44: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:46: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:48: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:50: C: Keep a blank line before and after private/protected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/user.rb:51: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/group_user.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:24: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:25: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:26: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:27: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:27: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:29: C: Surrounding space missing for operator '/'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:29: C: Surrounding space missing for operator '*'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:30: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:33: C: Use empty lines between defs.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:34: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:36: C: Use empty lines between defs.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:37: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:39: C: Use empty lines between defs.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/models/report.rb:40: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/static_pages_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/application_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/activations_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/activations_controller.rb:7: C: Surrounding space missing for '{'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/activations_controller.rb:7: C: Space missing to the left of '}'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:3: C: Method has too many lines. [18/10]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:8: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:14: C: Surrounding space missing for operator '=='.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:14: C: Use space after control keywords.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:14: C: Don't use parentheses around the condition of an if/unless/while/until
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:14: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:18: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/group_users_controller.rb:20: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/sessions_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/sessions_controller.rb:5: C: Method has too many lines. [14/10]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:21: C: Method has too many lines. [23/10]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:26: C: Line is too long. [80/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:27: C: Do not use :: for method invocation.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:31: C: Line is too long. [89/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:31: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:39: C: Never use unless with else. Rewrite these with the positive case first.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:56: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:65: C: Don't use parentheses around the condition of an if/unless/while/until
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:81: C: Surrounding space missing for operator '='.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:85: C: Use && instead of and.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:93: C: Method has too many lines. [61/10]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:97: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:97: C: Surrounding space missing for '{'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:97: C: Space missing to the left of '}'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:97: C: Surrounding space missing for '{'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:97: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:105: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:106: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:107: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:109: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:109: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:110: C: Use hash literal {} instead of Hash.new.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:111: C: Use hash literal {} instead of Hash.new.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:114: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:114: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:114: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:114: C: Surrounding space missing for operator '+'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:115: C: Surrounding space missing for operator '+'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:115: C: Surrounding space missing for operator '='.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:116: C: Surrounding space missing for operator '='.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:121: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:123: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:125: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:128: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:135: C: Surrounding space missing for operator '+'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:137: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:137: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:137: C: Surrounding space missing for operator '+'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:137: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:138: C: Surrounding space missing for operator '+='.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:139: C: Favor modifier if/unless usage when you have a single-line body. Another good alternative is the usage of control flow &&/||.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:145: C: Surrounding space missing for operator '='.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:147: C: Surrounding space missing for operator '+'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:148: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:148: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:148: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:148: C: Surrounding space missing for operator '+'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:148: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:148: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:150: C: Surrounding space missing for operator '+'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:150: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:150: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/users_controller.rb:150: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:7: C: Method has too many lines. [17/10]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:9: C: Avoid using {...} for multi-line blocks.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:13: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:16: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:17: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:20: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:23: C: Surrounding space missing for '{'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/catalogs_controller.rb:23: C: Space missing to the left of '}'.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:13: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:21: C: Line is too long. [115/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:21: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:21: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:23: C: Use empty lines between defs.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:25: C: Use && instead of and.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:25: C: Favor modifier if/unless usage when you have a single-line body. Another good alternative is the usage of control flow &&/||.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/controllers/reports_controller.rb:26: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/uploaders/attachment_uploader.rb:29: C: Line is too long. [81/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/uploaders/attachment_uploader.rb:53: C: Line is too long. [81/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:2: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:3: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:6: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:6: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:6: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:8: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:12: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:12: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:12: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:12: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/mailers/user_mailer.rb:12: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/reports_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/static_pages_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/users_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/users_helper.rb:4: C: Do not use :: for method invocation.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/users_helper.rb:6: C: Line is too long. [80/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/users_helper.rb:7: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/group_users_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:4: C: Don't use parentheses around the condition of an if/unless/while/until
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:4: C: Surrounding space missing for operator '=='.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:4: C: Use space after control keywords.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:4: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:15: C: Use empty lines between defs.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:16: C: Use && instead of and.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:18: C: Use empty lines between defs.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:19: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:21: C: Use empty lines between defs.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:21: C: Use attr_writer to define trivial writer methods.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/sessions_helper.rb:36: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/catalogs_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/application_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/application_helper.rb:5: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/app/helpers/activations_helper.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environment.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:4: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:5: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:6: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:7: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:8: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:14: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:24: C: Line is too long. [82/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:31: C: Line is too long. [85/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:36: C: Line is too long. [83/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:38: C: Line is too long. [99/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:39: C: Line is too long. [89/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:42: C: Line is too long. [98/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:43: C: Line is too long. [87/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:47: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:55: C: Line is too long. [82/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:56: C: Line is too long. [87/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:61: C: Line is too long. [100/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/application.rb:62: C: Line is too long. [97/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/backtrace_silencers.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/backtrace_silencers.rb:3: C: Line is too long. [107/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/backtrace_silencers.rb:6: C: Line is too long. [112/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/mime_types.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/carrierwave.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/inflections.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/session_store.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/session_store.rb:3: C: Line is too long. [102/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/secret_token.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/secret_token.rb:7: C: Line is too long. [183/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/wrap_parameters.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/initializers/wrap_parameters.rb:6: C: Line is too long. [96/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/production.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/production.rb:2: C: Line is too long. [84/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/production.rb:30: C: Line is too long. [96/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/production.rb:48: C: Line is too long. [104/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/test.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/test.rb:2: C: Line is too long. [84/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/test.rb:12: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/development.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/development.rb:2: C: Line is too long. [82/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/development.rb:40: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/development.rb:40: C: Line is too long. [81/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/development.rb:40: C: Ruby 1.8 hash syntax detected
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/environments/development.rb:40: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/boot.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:4: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:4: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:4: C: Space missing after comma.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:15: C: Space missing after colon.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:17: C: Trailing whitespace detected.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:74: C: Line is too long. [89/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/config/routes.rb:75: C: Line is too long. [89/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/script/delayed_job:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/script/delayed_job:3: C: Line is too long. [90/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/script/rails:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/script/rails:2: C: Line is too long. [124/79]
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/script/rails:10: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/Rakefile:1: C: Missing utf-8 encoding comment.
+/home/nguyentuananh/Documents/Aptana Studio 3 Workspace/daily_report_system/Rakefile:3: C: Line is too long. [90/79]
+
+78 files inspected, 454 offences detected

@@ -1,9 +1,9 @@
 <% if @user.group_user %>
-    <% if @activation.activation_status == "activated"%>
-        $("#activation_form_<%= @user.id%>").html("<%= escape_javascript(render('users/activated')) %>")
-    <% else %>
-        $("#activation_form_<%= @user.id%>").html("<%= escape_javascript(render('users/inactivated')) %>")
-    <% end %>
+  <% if @activation.activation_status == "activated"%>
+    $("#activation_form_<%= @user.id%>").html("<%= escape_javascript(render('users/activated')) %>")
+  <% else %>
+    $("#activation_form_<%= @user.id%>").html("<%= escape_javascript(render('users/inactivated')) %>")
+  <% end %>
 <% else %>
-    alert("<%=@user.name%> hasn't been assigned to any group. Assign him first")
+  alert("<%= @user.name%> hasn't been assigned to any group. Assign him first")
 <% end %>
