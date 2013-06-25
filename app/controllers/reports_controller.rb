@@ -12,7 +12,7 @@ class ReportsController < ApplicationController
     else
       flash.now['error'] = 'create report failed'
       @catalogs_collection = Catalog.all
-      render 'new'
+      render :new
     end
   end
 

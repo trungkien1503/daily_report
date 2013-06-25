@@ -1,6 +1,6 @@
 <div class="row-fluid">
     <%= render 'gen'%>
-    <%if params[:type] and params[:user_id]%>
+    <% if params[:type] and params[:user_id]%>
     <div class="row-fluid">
         <div class="span9">
             <% @catalog_ids = Catalog.find(:all,select: :id,order: :id).map{|c| c.id} %>
@@ -13,33 +13,33 @@
                 </thead>
 
                 <tbody>
-                    <%case @type%>
-                    <%when "week"%>
+                    <% case @type%>
+                    <% when "week"%>
                     <% @reports.group_by(&:week).each do |val,r2| %>
                     <% @val = val
                       @r2 = r2%>
                     <%= render 'row'%>
                     <% end %>
-                    <%when "month"%>
+                    <% when "month"%>
                     <% @reports.group_by(&:month).each do |val,r2| %>
                     <% @val = val
                       @r2 = r2%>
                     <%= render 'row'%>
                     <% end %>
-                    <%when "year"%>
+                    <% when "year"%>
                     <% @reports.group_by(&:year).each do |val,r2| %>
                     <% @val = val
                       @r2 = r2%>
                     <%= render 'row'%>
                     <% end %>
-                    <%end%>
+                    <% end%>
                 </tbody>
                 <tfoot></tfoot>
             </table>
         </div>
     </div>
-    <%=render 'gen_excel'%>
+    <%= render 'gen_excel'%>
 </div>
-<%end%>
+<% end %>
 </div>
 

@@ -7,11 +7,10 @@
         <%= @user.name %>
       </h1>
       <%= @user.email%>
-      <%= Activation.find_by_user_id(@user.id).activation_status%>
+      <%= @user.activation.activation_status%>
     </section>
   </aside>
   <%if admin?%>
     <%= render 'group_assign'%>
   <% end %>
-  
 </div>

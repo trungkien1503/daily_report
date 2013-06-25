@@ -1,5 +1,5 @@
 class CatalogsController < ApplicationController
-  before_filter :signed_in_user
+  before_filter 'signed_in_user'
   def new
     @catalog = Catalog.new
   end
@@ -14,7 +14,7 @@ class CatalogsController < ApplicationController
             redirect_to new_catalog_path
           else
             flash.now['error'] = 'creation failed'
-            render 'new'
+            render :new
           end
         else
           render 'sessions/new'

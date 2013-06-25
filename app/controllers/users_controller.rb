@@ -30,7 +30,7 @@ class UsersController < ApplicationController
       render 'sessions/new'
     else
       flash.now['error'] = 'signup failed'
-      render 'new'
+      render :new
     end
   end
 
@@ -44,7 +44,7 @@ class UsersController < ApplicationController
       sign_in @user
       redirect_to @user
     else
-      render 'edit'
+      render :edit
     end
   end
 
@@ -71,9 +71,9 @@ class UsersController < ApplicationController
     @id = params['user_id'].to_i
     if params['type'] && params['user_id']
       @reports = User.find(@id).reports
-      render 'gen_reports'
+      render :gen_reports
     else
-      render 'gen_reports'
+      render :gen_reports
     end
   end
 
