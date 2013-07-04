@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter 'signed_in_user', only: [:edit, :update, :index, :create]
+  before_filter 'signed_in_user', only: [:edit, :update, :index]
   before_filter 'correct_user',   only: [:edit, :update]
   def index
     @users = User.paginate(page: params['page'], per_page: 20)
@@ -23,11 +23,12 @@ class UsersController < ApplicationController
     @user = User.new(params['user'])
     @user.password = @user.password_confirmation = User.auto_generate_password
     @user.activation_token = Digest::MD5::hexdigest(@user.email.downcase)
+    @user.save
     @act = Activation.new(user_id: @user.id, activation_status: 'inactivated')
-    if @user.save && @act.save
+    if @act.save
       mail_activate(@user)
-      flash.now['message'] = 'signup success, check mail for password'
-      render 'sessions/new'
+      flash.now['message'] = 'signup success, check mail for password and wait admin active your acount'
+      render 'user_mailer/active_email'
     else
       flash.now['error'] = 'signup failed'
       render :new
@@ -56,7 +57,7 @@ class UsersController < ApplicationController
     else
       flash.now['message'] = 'activation failed'
     end
-    render 'static_pages/home'
+    # render 'static_pages/home'
   end
 
   def gen_reports
@@ -145,6 +146,7 @@ class UsersController < ApplicationController
   end
 
   def mail_activate(user)
+    # binding.pry
     UserMailer.welcome_email(user).deliver
     UserMailer.active_email(user).deliver
   end

@@ -11,13 +11,16 @@ gem 'writeexcel'
 gem 'delayed_job_active_record'
 # gem used for handling upload
 gem 'carrierwave'
+gem 'execjs'
+gem 'therubyracer'
+gem 'pry'
+gem 'mailcatcher'
+gem 'mail'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'active_attr'
-  gem 'mailcatcher'
-  gem 'mail'
-end
+ end
 
 group :development do
   gem 'annotate', '2.5.0'

@@ -6,7 +6,6 @@ class CreateCatalogs < ActiveRecord::Migration
 
       t.timestamps
     end
-    
-    add_index :catalogs,  :name
+    add_index :catalogs, :name, unique:true
   end
 end

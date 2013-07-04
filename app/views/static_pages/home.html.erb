@@ -1,7 +1,7 @@
 <div class="center hero-unit">
-	<h1>Welcome to the Daily Report System</h1>
-    <h2>Hi Hi Hi</h2>
+	<%= link_to image_tag("framgia.png", alt: "framgia"), 'http://framgia.com/vn/company/vn/index.html' %>
+	<h1>Daily Report System</h1>
+	<%if(session[:user_id] == nil)%>
 	<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+	<%end%>
 </div>
-
-<%= link_to image_tag("framgia.png", alt: "framgia"), 'http://framgia.com/vn/company/vn/index.html' %>

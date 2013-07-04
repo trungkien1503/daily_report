@@ -1,9 +1,8 @@
 <% provide(:title, 'Activation') %>
 <p>
-	username is: <%= @user.name %>.
-	useremail is:<%= @user.email%> 
+	user name is: <%= @user.name %>
 	<br/>
-</p>
-<p>
-	To active this account, just follow this link: <%= @url %>.
-</p>
+	user email is: <%= @user.email%> 
+	<br/>
+	your password is: <% @user.password%>
+</p> 

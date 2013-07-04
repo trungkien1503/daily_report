@@ -1,4 +1,7 @@
 DailyReportSystem::Application.routes.draw do
+  resources :groups
+
+
   resources :users do
     member do
       get :activate,:gen_reports,:gen_reports_result,:gen_excel

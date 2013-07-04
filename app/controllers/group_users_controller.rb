@@ -1,9 +1,10 @@
 class GroupUsersController < ApplicationController
   before_filter 'correct_admin'
   def create
+    binding.pry
     @g_user = GroupUser.new(params['group_user'])
     @user = User.find(@g_user.user_id)
-    GroupUser.destroy_by_user(@user)
+    # GroupUser.destroy_by_user(@user)
     if @g_user.save
       @group = Group.find(@g_user.group_id)
       flash['success'] = "assigned user '#{@user.id}' to '#{@group.name}'"

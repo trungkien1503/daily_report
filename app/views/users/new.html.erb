@@ -6,10 +6,10 @@
 		<%= render 'shared/error_messages' %>
 		
 		<%= f.label :name %>
-		<%= f.text_field :name %>
+		<%= f.text_field :name ,:placeholder => "example"%>
 		
 		<%= f.label :email %>
-		<%= f.text_field :email %>
+		<%= f.text_field :email, :placeholder => "example@framgia.com" %>
 		
 		<%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
 		<% end %>

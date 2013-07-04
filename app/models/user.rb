@@ -23,8 +23,10 @@ class User < ActiveRecord::Base
   validates :name, presence: true, length: { maximum: 50 }
   VALID_EMAIL_REGEX = /\A[\w+-.]+@framgia.com\z/i
   validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }, uniqueness: { case_sensitive: false }
-  validates :password, presence: true, length: { minimum: 6 }, on: :update
-  validates :password_confirmation, presence: true, on: :update
+  # validates :password, presence: true, length: { minimum: 6 }, on: :update
+  # validates :password_confirmation, presence: true, on: :update
+  validates :password, length: { minimum: 6 }
+  validates :password_confirmation, presence: true
   validates :activation_token, presence: true, on: :update
   class << self
     def auto_generate_password

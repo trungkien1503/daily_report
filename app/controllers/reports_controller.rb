@@ -7,6 +7,7 @@ class ReportsController < ApplicationController
 
   def create
     @report = Report.new(params['report'])
+    binding.pry
     if @report.save
       redirect_to reports_path
     else

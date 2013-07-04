@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(:version => 20130610183546) do
     t.datetime "updated_at",        :null => false
   end
 
+  add_index "activations", ["user_id"], :name => "index_activations_on_user_id", :unique => true
+
   create_table "catalogs", :force => true do |t|
     t.string   "name"
     t.text     "document"
@@ -27,7 +29,7 @@ ActiveRecord::Schema.define(:version => 20130610183546) do
     t.datetime "updated_at", :null => false
   end
 
-  add_index "catalogs", ["name"], :name => "index_catalogs_on_name", :unique => true
+  add_index "catalogs", ["name"], :name => "index_catalogs_on_name"
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -53,7 +55,7 @@ ActiveRecord::Schema.define(:version => 20130610183546) do
   end
 
   add_index "group_users", ["group_id"], :name => "index_group_users_on_group_id"
-  add_index "group_users", ["user_id"], :name => "index_group_users_on_user_id"
+  add_index "group_users", ["user_id"], :name => "index_group_users_on_user_id", :unique => true
 
   create_table "groups", :force => true do |t|
     t.string   "name"
@@ -64,26 +66,21 @@ ActiveRecord::Schema.define(:version => 20130610183546) do
 
   add_index "groups", ["name"], :name => "index_groups_on_name", :unique => true
 
-  create_table "members", :force => true do |t|
-    t.integer  "user_id"
-    t.integer  "group_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "members", ["group_id"], :name => "index_members_on_group_id"
-  add_index "members", ["user_id"], :name => "index_members_on_user_id"
-
   create_table "reports", :force => true do |t|
     t.integer  "catalog_id"
     t.integer  "user_id"
     t.text     "content"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.binary   "attached_file_data"
+    t.string   "attached_file_name"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "attached_file_type"
     t.string   "file"
   end
 
   add_index "reports", ["catalog_id"], :name => "index_reports_on_catalog_id"
+  add_index "reports", ["created_at"], :name => "index_reports_on_created_at"
+  add_index "reports", ["user_id", "created_at"], :name => "index_reports_on_user_id_and_created_at"
   add_index "reports", ["user_id"], :name => "index_reports_on_user_id"
 
   create_table "users", :force => true do |t|
@@ -92,6 +89,7 @@ ActiveRecord::Schema.define(:version => 20130610183546) do
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
     t.string   "password_digest"
+    t.integer  "status_id"
     t.string   "activation_token"
     t.string   "remember_token"
   end
